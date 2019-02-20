@@ -1,0 +1,22 @@
+﻿<Window x:Class="EPAS.Views.VerifyView"
+        WindowStartupLocation="CenterScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EPAS.Views"
+        mc:Ignorable="d"
+        Title="VerifyView" Height="450" Width="645.092" Icon="../Resources/gears.ico">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../i18N/Language.en-US.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <TreeView x:Name="TreeData" Margin="27,49,25.333,77.667"/>
+        <Label Content="{DynamicResource ResourceKey=VerifyLable}" HorizontalAlignment="Left"  Margin="10,10,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Button Content="{DynamicResource ResourceKey=VerifySubmit}" HorizontalAlignment="Left" Margin="481,365,0,0" VerticalAlignment="Top"  Width="111" Command="{Binding SubmitCommand}" Height="30"/>
+    </Grid>
+</Window>

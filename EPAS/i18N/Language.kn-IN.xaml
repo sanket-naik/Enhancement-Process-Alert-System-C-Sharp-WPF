@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="ResourceDictionaryName">Loc-kn-IN</sys:String>
+
+    <sys:String x:Key="LoginTitle">ಇಎಎಸ್ ಲಾಗಿನ್</sys:String>
+    <sys:String x:Key="LoginUserId">ಹೆಸರು: </sys:String>
+    <sys:String x:Key="LoginPassword">ಪಾಸ್ವರ್ಡ್: </sys:String>
+    <sys:String x:Key="LoginFrame">ಲಾಗಿನ್ ಮಾಡಿ</sys:String>
+    <sys:String x:Key="LoginButton">ಲಾಗಿನ್</sys:String>
+    <sys:String x:Key="LanguageButton">ಭಾಷೆ</sys:String>
+    <sys:String x:Key="UploadFrameTitle">ವರ್ಧಕ ಫೀಚರ್ ಡಾಕ್ಯುಮೆಂಟ್ಸ್ ಆಯ್ಕೆಮಾಡಿ:</sys:String>
+    <sys:String x:Key="UploadEnhancementGroupbox">ವರ್ಧಕ ಡಾಕ್ಯುಮೆಂಟ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</sys:String>
+    <sys:String x:Key="UploadAssigneeGroupbox">ನಿಯೋಜಕ ಡಾಕ್ಯುಮೆಂಟ್ ಆಯ್ಕೆಮಾಡಿ</sys:String>
+    <sys:String x:Key="UploadBrowse">ಬ್ರೌಸ್</sys:String>
+    <sys:String x:Key="UploadProceed">ಮುಂದೆ</sys:String>
+    <sys:String x:Key="UploadTitle">ಮುಖ್ಯ</sys:String>
+    <sys:String x:Key="VerifyLable">ಫಲಿತಾಂಶವನ್ನು ಪರಿಶೀಲಿಸಿ:</sys:String>
+    <sys:String x:Key="VerifySubmit">ಈವೆಂಟ್</sys:String>
+</ResourceDictionary>

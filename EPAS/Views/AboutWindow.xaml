@@ -1,0 +1,67 @@
+﻿<Window x:Class="EPAS.Views.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EPAS.Views"
+        mc:Ignorable="d"   Title="Help" Height="503.999" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow">
+
+    <FlowDocumentScrollViewer ScrollViewer.VerticalScrollBarVisibility="Auto">
+        <FlowDocument>
+            <FlowDocument.Resources>
+                <Style TargetType="Section">
+                    <Setter Property="Padding" Value="5"/>
+                </Style>
+            </FlowDocument.Resources>
+
+            <Section>
+                <Paragraph>
+                    <Bold>Introduction</Bold>
+                </Paragraph>
+                <Paragraph>
+                    <Bold>EAS</Bold> stands for
+                    <Bold>Enhancement Process Alert System</Bold> .
+                    The requirement is to capture each task from the given documents and notify the actors with respective alerts with respective date.
+                </Paragraph>
+            </Section>
+
+            <Section>
+                <Paragraph>
+                    <Bold>Solution Overview</Bold>
+                </Paragraph>
+                <Paragraph>
+                    <Floater Width="273">
+                        <BlockUIContainer>
+                            <Image Source="../Resources/Overview.png" Height="143" Width="273"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    <Bold>•	Enhancement Task</Bold> – This file consists of all the responsibility to respected position with respected date for 6 weeks.
+                    <LineBreak/>
+                    <Bold>•	Team Details</Bold> – Consist of team details who the tasks will be assigned.
+                    <LineBreak/>
+                    <Bold>•	Alert Tool</Bold> – It is the Tool which needs to check jobs assigned for respective employees and send alert notification regarding job on time.
+                </Paragraph>
+            </Section>
+            <Section>
+                <Paragraph>
+                    <Bold>Enhancement Document Formate:</Bold>
+                    <LineBreak/>
+                    <LineBreak/>
+                    Below references to WEEK is the weeks prior to the enhancement feature week.
+                </Paragraph>
+                <Paragraph>
+                    <Image Source="../Resources/Enhancement.png" Height="298" Width="723"/>
+                </Paragraph>
+            </Section>
+            <Section>
+                <Paragraph>
+                    <Bold>Assignee Document Formate:</Bold>
+                    <LineBreak/>
+                </Paragraph>
+                <Paragraph>
+                    <Image Source="../Resources/Assignee.png" Height="65" Width="723"/>
+                </Paragraph>
+            </Section>
+        </FlowDocument>
+    </FlowDocumentScrollViewer>
+</Window>
